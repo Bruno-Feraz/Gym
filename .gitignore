@@ -1,0 +1,24 @@
+.DS_Store
+.idea/
+*.iml
+.vscode/
+
+# Flutter
+gym_app/.dart_tool/
+gym_app/.flutter-plugins
+gym_app/.flutter-plugins-dependencies
+gym_app/.packages
+gym_app/build/
+gym_app/.pub-cache/
+gym_app/.pub/
+**/Generated.xcconfig
+**/flutter_export_environment.sh
+**/ephemeral/
+
+# Release binaries
+gym_app/release/*.apk
+gym_app/release/*.aab
+gym_app/release/**/*.apk
+gym_app/release/**/*.aab
+gym_app/release/**/*.ipa
+gym_app/release/**/*.app/

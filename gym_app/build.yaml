@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      drift_dev:
+        options:
+          databases:
+            gym: lib/data/db/app_database.dart

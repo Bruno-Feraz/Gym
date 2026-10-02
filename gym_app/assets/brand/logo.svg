@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Gym logo">
+  <rect width="1024" height="1024" fill="#000000"/>
+  <!-- G monogram atletica: anello spesso + gamba verticale destra (non stile Google) -->
+  <path
+    fill="#FFFFFF"
+    fill-rule="evenodd"
+    d="M512 168
+       C322 168 168 322 168 512
+       C168 702 322 856 512 856
+       C642 856 754 792 820 696
+       L680 616
+       C640 680 580 716 512 716
+       C400 716 308 624 308 512
+       C308 400 400 308 512 308
+       C580 308 640 344 680 408
+       L820 328
+       C754 232 642 168 512 168
+       Z
+       M448 456
+       L856 456
+       L856 568
+       L728 568
+       L728 720
+       L600 720
+       L600 568
+       L448 568
+       Z"
+  />
+</svg>

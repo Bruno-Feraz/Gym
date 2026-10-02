@@ -1,0 +1,8 @@
+{
+  "product": "Gym",
+  "version": "0.2.0+2",
+  "generatedAt": "2026-09-29T13:54:48.365719Z",
+  "componentCount": 103,
+  "sbom": "sbom-0.2.0_2-20260929.cdx.json",
+  "note": "Archiviare insieme a hash binario e checklist. Non pubblicare per forza."
+}

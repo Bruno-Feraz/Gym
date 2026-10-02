@@ -1,0 +1,53 @@
+name: gym_app
+description: "Gym — allenamento, dieta e spesa alimentare."
+publish_to: 'none'
+version: 0.2.1+3
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  drift: ^2.25.1
+  drift_flutter: ^0.2.4
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  uuid: ^4.5.1
+  intl: ^0.20.2
+  fl_chart: ^0.70.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.25.2
+  build_runner: ^2.4.15
+  flutter_native_splash: ^2.4.5
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/brand/
+    - assets/seed/
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/brand/logo.png
+  android_12:
+    color: "#000000"
+    image: assets/brand/logo.png
+  ios: true
+  android: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/brand/logo.png
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: assets/brand/logo.png
+  remove_alpha_ios: true
